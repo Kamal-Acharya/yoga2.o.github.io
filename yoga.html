@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<script src="images/jquery-3.5.1.js"></script>
+<script>
+    $("#button").click(function(){
+        $('html,body').animate({
+            scrollTo:$("#kamal").offset().top
+        },400);
+        });
+        $("#button2").click(function(){
+        $('html,body').animate({
+            scrollTo:$("#riya").offset().top
+        },400);
+        });
+        $("#button3").click(function(){
+        $('html,body').animate({
+            scrollTo:$("#himan").offset().top
+        },400);
+        });
+</script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+<style>
+ .navbar a{
+     text-decoration: none;
+     color: black;
+ }
+ .con3 h1{
+     position: absolute;
+ }
+ .con2 h1{
+     position: absolute;
+     font-size:40px;
+    
+ }
+ .con2 .box{
+     margin-top: 40px;
+ }
+
+</style>
+<body>
+
+    <nav class="navbar">
+        <h1>online-yog</h1>
+        <ul>
+            
+            <li><a href="#kamal"  id="button">Home</a></li>
+            <li><a href="#kamal"  id="button">about us</a></li>
+            <li><a href="#riya"  id="button">mentors</a></li>
+            <li><a href="#himan"  id="button">contact</a></li>
+           
+        </ul>
+    </nav>
+    <div class="con1">
+        <img src="images/yoga4.webp" alt="">
+        <h2>
+            yoga is the journey <br> of the self <br> through the self , <br> to the self!!
+        </h2>
+    </div>
+    <div class="con2" id="kamal">
+        <h1> About us</h1>
+        <div class="box">
+         <img src="images/download__2_-removebg-preview (1).png" alt="" id="img1">
+            <h2>For You</h2>
+            <p>Personalize your practice  <br> because you are unique</p>
+        </div>
+        <div class="box">
+            <img src="images/istockphoto-627888720-612x612-removebg-preview.png" alt="" id="img2">
+            <h2>Classes</h2>
+
+            <p>our classes are inclusive and <br> offered in hindi and english</p>
+        </div>
+        <div class="box">
+            <img src="images/images-removebg-preview (1).png" id="img3">
+            <h2>Save world</h2>
+            <p>We donate 1% to save  our mother earth</p>
+        </div>
+    </div>
+
+    <div class="con5">
+        <img src="images/650x350_basic_yoga_poses_slideshow.jpg" id="img4" alt="">
+        <img src="images/images (1).jpg" id="img5" alt="">
+        <p>Practice and learn anywhere</p>
+        <p></p>
+        <button>Start a free trial</button>
+    </div>
+
+<div class="con3" id="riya">
+    <h1> Meet Our Mentors</h1>
+    <div class="box">
+    <img src="images/FB_IMG_1595946365215.jpg" alt="">
+    <h2>yoga</h2>
+    <p>Name:- Akash sar</p>
+    <p>From:- westbengal</p>
+    </div>
+    <div class="box">
+        <img src="images/IMG-20200725-WA0004.jpg" alt="">
+        <h2>Fitness</h2>
+        <p>Name :-Raj</p>
+        <p>From :-odhisa</p>
+        </div>
+        <div class="box">
+            <img src="images/IMG_20200728_131113_667.jpg" alt="">
+            <h2>Pilates</h2>
+            <p>Name:- Somnath</p>
+            <p>From:-assam</p>
+            </div>
+</div>
+<div class="con4" id="himan">
+    <h1>For any queries contact us</h1>
+    <div class="form">
+        <h2>Get Started</h2>
+        <form action="">
+            <input type="text" placeholder="Name" /required> <br>
+            <input type="text" placeholder="age" /required><br>
+            <input type="email" placeholder="email id" /required><br>
+            <input type="text" placeholder="phone no" /required><br>
+            <button>register</button>
+            <p>Or call at xxx6080</p>
+        </form>
+    </div>
+ <footer>&copy www.online-yog.com</footer>
+</div>
+
+
+</body>
+
+</html>
